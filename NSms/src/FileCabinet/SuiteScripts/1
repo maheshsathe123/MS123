@@ -1,6 +1,7 @@
 function pageInit()
 {
     try
+    
     {
    //On page init display the currently logged in User's profile information.
 
