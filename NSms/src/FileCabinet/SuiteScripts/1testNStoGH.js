@@ -46,7 +46,7 @@ define([ 'N/record'], function ( record) {
         var external = currentRecord.getValue({
             fieldId: 'custrecord_external'
         });
-
+ //
         //Check if both Internal and External fields are empty:
         if (internal == '' &&  external == '') {
             alert('Please enter value in either Internal or External');
